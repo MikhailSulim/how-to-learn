@@ -11,6 +11,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000000;
 }
 
 .header {
@@ -47,6 +48,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -224,24 +226,41 @@
 .feynman {
   position: relative;
   height: 890px;
+  background-color: #f2f2f2;
+  margin: 100px 0px 90px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .feynman__title {
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
+  width: 648px;
+  margin: 100px 0px 0px 0px;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
 }
 
 .feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
+  margin: 70px 0px 0px 0px;
+  z-index: 1;
 }
 
 .feynman__link {
+  position: absolute;
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
+  color: #2f80ed;
+  text-decoration: none;
+  top: 50%;
+  right: 48px;
 }
 
 .feynman__img {
