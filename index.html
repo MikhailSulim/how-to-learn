@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
 
   <body>
-    <div class="page">
+    <div class="root">
       <header class="header">
         <a href="https://practicum.yandex.ru/">
           <img
@@ -30,7 +30,7 @@
           alt="Фрагмент картины Решетникова &#34;Опять двойка&#34;"
           class="header__main-illustration"
         />
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
 
       <main class="content">
@@ -123,15 +123,15 @@
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
-            <iframe width="515" height="316"
+            <iframe
               src="https://www.youtube.com/embed/arj7oStGLkU"
-              frameborder="0" allowfullscreen
+              allowfullscreen
               class="video__iframe">
             </iframe>
 
-            <iframe width="515" height="316"
+            <iframe
               src="https://www.youtube.com/embed/5MgBikgcWnY"
-              frameborder="0"
+              allowfullscreen
               class="video__iframe" >
             </iframe>
 
@@ -288,7 +288,7 @@
               </p>
             </li>
           </ul>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
         </section>
 
         <section class="resources">
